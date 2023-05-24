@@ -45,3 +45,9 @@ Route::get('/user',
 
 Route::post('/user/store', 
     [UserController::class, 'store'])->name('user/store');
+
+Route::get('Praktikum9/data', 
+    [UserController::class, 'data']);
+
+Route::post('/Praktikum9/hasil', 
+    [UserController::class, 'hasil'])->name('Praktikum9/hasil');
