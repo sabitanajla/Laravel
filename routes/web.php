@@ -51,3 +51,19 @@ Route::get('Praktikum9/data',
 
 Route::post('/Praktikum9/hasil', 
     [UserController::class, 'hasil'])->name('Praktikum9/hasil');
+
+
+use App\Http\Controllers\TokoController;
+
+Route::prefix('toko')->group(function(){
+    Route::get('/', 
+    [TokoController::class, 'index']);
+   
+   Route::get('/detail', 
+    [TokoController::class, 'detail']);
+   
+   Route::get('/about', 
+    [TokoController::class, 'about']);
+});
+
+
