@@ -29,7 +29,7 @@
   <div class="col">
     <div class="card h-100">
     <a href="/toko/detail" class="btn">
-      <img src="img/kitchenaid.jpg" class="card-img-top" alt="">
+      <img src="/img/kitchenaid.jpg" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">PRODUK</h5>
         <p class="card-text"><b>Kitchenaid</b></p>
@@ -40,7 +40,7 @@
   <div class="col">
     <div class="card h-100">
     <a href="/toko/detail" class="btn">
-      <img src="img/panci.jpg" class="card-img-top" alt="">
+      <img src="/img/panci.jpg" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">PRODUK</h5>
         <p class="card-text"><b>Panci.</b></p>
@@ -51,7 +51,7 @@
   <div class="col">
     <div class="card h-100">
     <a href="/toko/detail" class="btn">
-      <img src="img/dpr6.jpg" class="card-img-top" alt="">
+      <img src="/img/dpr6.jpg" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">PRODUK</h5>
         <p class="card-text"><b>Westafel</b></p>
@@ -62,7 +62,7 @@
   <div class="col">
     <div class="card h-100">
     <a href="/toko/detail" class="btn">
-      <img src="img/dpr5.jpg" class="card-img-top" alt="...">
+      <img src="/img/dpr5.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">PRODUK</h5>
         <p class="card-text"><b>Tap Mixer Pull Out</b></p>

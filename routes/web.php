@@ -59,11 +59,17 @@ Route::prefix('toko')->group(function(){
     Route::get('/', 
     [TokoController::class, 'index']);
    
-   Route::get('/detail', 
+    Route::get('/detail', 
     [TokoController::class, 'detail']);
    
-   Route::get('/about', 
+    Route::get('/about', 
     [TokoController::class, 'about']);
+
+    Route::get('/admin', 
+    [TokoController::class, 'admin']);
+
+    Route::get('/customers', 
+    [TokoController::class, 'customers']);
 });
 
 
